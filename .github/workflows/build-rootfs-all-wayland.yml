@@ -18,8 +18,8 @@ on:
         required: true
         default: 9999
         type: number
-  schedule:
-    - cron: '0 18 * * 0'
+  #schedule:
+  #  - cron: '0 18 * * 0'
 
 concurrency:
   group: droidspaces-rootfs-all-wayland
